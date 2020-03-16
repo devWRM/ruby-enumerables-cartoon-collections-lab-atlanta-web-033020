@@ -46,7 +46,6 @@ def find_the_cheese(array) # code an argument here
                       array.detect do |i|
                         if i == cheese_types[0] || cheese_types[1] || cheese_types[2]
                           return i
-                          i += 1
                         end
                       end
   
