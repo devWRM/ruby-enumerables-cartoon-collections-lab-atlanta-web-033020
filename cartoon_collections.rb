@@ -44,9 +44,7 @@ def find_the_cheese(array) # code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   
                       array.detect do |current_el|
-                        cheese_types.include?(current_el) do
-                          return current_el
-                        end
+                        cheese_types.include?(current_el) 
                       end
                 nil
 end
