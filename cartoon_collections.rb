@@ -16,7 +16,7 @@ def summon_captain_planet(array) # code an argument here
   
                           call = []
                           array.map { |i| call << "#{i.capitaliz} !"}
-  
+                    call
   
 end
 
